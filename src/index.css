@@ -49,3 +49,10 @@ a {
     }
     
 }
+
+@media only screen and (max-width:575px) {
+    .Main-Div {
+        height: 100vh;
+    }
+    
+}
