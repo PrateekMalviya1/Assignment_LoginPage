@@ -1,0 +1,85 @@
+.relative {
+    position: relative;
+}
+
+.ProfileHeader {
+    background-color: white;
+    width: calc(100% - 8%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 27px 4%;
+}
+
+.ProfileSection {
+    padding-top: 68px;
+}
+
+.ProfileSection>div {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.profileImg {
+    max-width: 76px;
+    max-height: 76px;
+    position: relative;
+}
+
+.profileImg>img {
+    width: 100%;
+}
+
+.icon {
+    max-width: 23px;
+    max-width: 23px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.icon>img {
+    width: 100%;
+}
+
+.profileImg>input {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.Name {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.GMail {
+    color: #777b7d;
+    margin-top: 6px;
+}
+
+.ProfileSection>div>p {
+    font-size: 14px;
+    color: #606467;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #777b7d;
+}
+
+.lastLine{
+    border-bottom: 1px #777b7d dashed;
+    position: absolute;
+    bottom: 20px;
+    width: 99%;
+    left: 0px;
+}
+

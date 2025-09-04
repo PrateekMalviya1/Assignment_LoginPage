@@ -1,0 +1,47 @@
+.Welcome-ContentDiv {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    height: 100%;
+}
+
+.welcomeHeading {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.Welcome-ContentDiv>p {
+    font-size: 18px;
+    margin-bottom: 29px;
+    color: #939598;
+    font-weight: 400;
+}
+
+.CreateAccountBtn {
+    background-color: #6C25FF;
+    padding: 13px 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.SignUpBtn {
+    background-color: #6C25FF4B;
+    color: #2f313b;
+    padding: 13px 0px;
+    font-size: 16px;
+    margin-bottom: 41px;
+    font-weight: 500;
+}
+
+.CreateAccountBtn:hover {
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.SignUpBtn:hover {
+    box-shadow: 2px 2px 2px 1px gray;
+    cursor: pointer;
+}

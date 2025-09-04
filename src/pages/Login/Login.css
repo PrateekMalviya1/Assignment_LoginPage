@@ -1,0 +1,71 @@
+.SignUpHeading {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.SignUpContent>p {
+    margin-top: 14px;
+    color: #9ea0a3;
+    font-size: 18px;
+}
+
+.formLogin {
+    margin-top: 33px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.formLogin>div {
+    position: relative;
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.formLogin>div>label {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    left: 3%;
+    line-height: 100%;
+    background-color: #F7F8F9;
+    color: #6C25FF;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+.formLogin>div>input {
+
+    width: calc(100% - 8%);
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    background-color: inherit;
+    font-size: 16px;
+    padding: 0px 4%;
+}
+
+.formLogin>button {
+    background-color: #CBCBCB;
+    width: 100%;
+    color: #1D2226;
+    font-size: 16px;
+    padding: 13px 0px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.purpleBtnActive {
+    background-color: #6C25FF !important;
+    padding: 13px 0px !important;
+    font-size: 16px !important;
+    color: #FFFFFF !important;
+    margin-bottom: 10px !important;
+    font-weight: 500 !important;
+}
+
+.formLogin>button:hover {
+    box-shadow: 2px 2px 2px 1px gray;
+}
