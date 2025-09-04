@@ -44,15 +44,16 @@ a {
 @media only screen and (max-width:375px) {
     .Main-Div {
         width: 100%;
-        height: 100vh;
+        /* height: 100vh; */
         padding: 0px 8px;
     }
     
 }
 
 @media only screen and (max-width:575px) {
+    
     .Main-Div {
-        height: 90vh;
+        height: 100vh;
     }
     
 }
